@@ -8,7 +8,7 @@ namespace FriendLetter
     {
       Get["/hello"] = _ => "Hello friend!";
       Get["/goodbye"] = _ => "Goodbye friend!";
-      Get["/letter"] = _ =>
+      Get["/"] = _ =>
         "<!DOCTYPE html>" +
         "<html>" +
         "<head>" +
@@ -25,6 +25,7 @@ namespace FriendLetter
           "<p>Looking forward to seeing you soon. I'll bring you back a souvenir. </p>" +
           "<p>Cheers,</p>" +
           "<p>Travel Enthusiast Jane</p>" +
+          "<p><a href='/favorite_photos' >P.S. Check out my favorite travel photos here.</a></p>" +
         "</body>" +
         "</html>";
         Get["/favorite_photos"] = _ =>
