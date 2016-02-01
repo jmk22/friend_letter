@@ -27,6 +27,22 @@ namespace FriendLetter
           "<p>Travel Enthusiast Jane</p>" +
         "</body>" +
         "</html>";
+        Get["/favorite_photos"] = _ =>
+          "<!DOCTYPE html>" +
+          "<html>" +
+          "<head>" +
+          "<title>Hello Friend!</title>" +
+          "<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>" +
+          "</head>" +
+          "<body>" +
+          "<h1>Favorite Traveling Photos</h1>" +
+          "<ul>" +
+          "<li><img src='Content/img/photo1.jpg'/></li>" +
+          "<li><img src='Content/img/photo2.jpg'/></li>" +
+          "<li><img src='Content/img/photo3.jpg'/></li>" +
+          "</ul>" +
+          "</body>" +
+          "</html>";
     }
   }
 }
