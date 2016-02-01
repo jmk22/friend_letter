@@ -14,6 +14,7 @@ namespace FriendLetter
         "<head>" +
           "<title>Hello Friend!</title>" +
           "<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>" +
+          "<link rel='stylesheet' href='Content/css/styles.css'>" +
         "</head>" +
         "<body>" +
           "<h1>Hello From Afar</h1>" +
