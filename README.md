@@ -3,6 +3,8 @@
 ###Description
 This application illustrates basic setup for a Nancy application.
 
+Walkthrough demonstrated here: https://www.learnhowtoprogram.com/c/web-apps-with-nancy/hello-world-with-nancy
+
 ###Instructions
 From project directory, run `> dnu restore` to generate lock file.
 
